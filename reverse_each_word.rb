@@ -5,7 +5,7 @@ def reverse_each_word(string)
   converted_array.each do |word|
     puts "Working on #{word}"
     # word.reverse!
-    puts "Worked on #{word}""
+    puts "Worked on #{word}"
   end
 end
 
