@@ -7,7 +7,7 @@ def reverse_each_word(string)
     word.reverse!
     puts "Worked on #{word}"
   end
-  
+  puts "Worked on #{converted_array.inspect}"
 end
 
 reverse_each_word("Hello, how are you?")
