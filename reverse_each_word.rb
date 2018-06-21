@@ -8,7 +8,7 @@ def reverse_each_word(string)
     puts "Worked on #{word}"
   end
   puts "Worked on #{converted_array.inspect}"
-  converted_array.join
+  puts converted_array.join
 end
 
 reverse_each_word("Hello, how are you?")
